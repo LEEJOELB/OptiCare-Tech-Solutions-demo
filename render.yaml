@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: opticare-demo
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: "python main.py"
+    autoDeploy: true
